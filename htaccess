@@ -1,0 +1,35 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex index.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^payment$ page36964648.html [NC]
+RewriteRule ^payment/$ page36964648.html [NC]
+
+RewriteRule ^refund$ page36966285.html [NC]
+RewriteRule ^refund/$ page36966285.html [NC]
+
+RewriteRule ^coffeelike$ page37216153.html [NC]
+RewriteRule ^coffeelike/$ page37216153.html [NC]
+
+RewriteRule ^everyday$ page37216350.html [NC]
+RewriteRule ^everyday/$ page37216350.html [NC]
+
+RewriteRule ^pilligreen$ page37216698.html [NC]
+RewriteRule ^pilligreen/$ page37216698.html [NC]
+
+RewriteRule ^moon$ page37223229.html [NC]
+RewriteRule ^moon/$ page37223229.html [NC]
+
+RewriteRule ^kavaikvetki$ page37223416.html [NC]
+RewriteRule ^kavaikvetki/$ page37223416.html [NC]
+
+RewriteRule ^route66$ page37384313.html [NC]
+RewriteRule ^route66/$ page37384313.html [NC]
+
+
